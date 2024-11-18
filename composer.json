@@ -1,0 +1,20 @@
+{
+    "name": "jam-commits/postgres-connector",
+    "description": "Simple PostgreSQL connector",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "JamCommits\\PostgresConnector\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jacques-Antoine",
+            "email": "jacques.antoine.dev@gmail.com"
+        }
+    ],
+    "require": {
+      "php": ">=8.3" 
+    }
+}
