@@ -1,6 +1,6 @@
 <?php
 
-namespace MyPostgresConnector;
+namespace JamCommits\PostgresConnector;
 
 use PDO;
 use PDOException;
