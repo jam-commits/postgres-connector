@@ -25,7 +25,6 @@ class Database
                     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
                     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
                 ]);
-                echo "Connexion réussie à la base de données PostgreSQL.\n";
             } catch (PDOException $e) {
                 throw new \RuntimeException("Erreur de connexion à la base de données : " . $e->getMessage());
             }
